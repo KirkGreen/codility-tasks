@@ -1,3 +1,7 @@
+<h1>Binary Gap</h1>
+
+[Link to the task][https://app.codility.com/programmers/lessons/1-iterations/]
+
 A binary gap within a positive integer N is any maximal
 sequence of consecutive zeros that is surrounded by ones
 at both ends in the binary representation of N.
@@ -28,3 +32,5 @@ and thus no binary gaps.
 Write an efficient algorithm for the following assumptions:
 
 - N is an integer within the range `[1..2,147,483,647]`.
+
+[https://app.codility.com/programmers/lessons/1-iterations/]: https://app.codility.com/programmers/lessons/1-iterations/
