@@ -4,7 +4,13 @@ function solution(N) {
 
   let sortArr = zeroBinaryArr
     .filter(
-      (item, i, arr) => item !== '' && arr[arr.length -1] === ''
+      (item, i, arr) => {
+        if(item !== '' && arr[arr.length -1] === ''){
+          return true
+        } else if (arr[arr.length -1] !== ''){
+          arr[arr.length -1] = ''
+        }
+      }
     )
     .sort(
       (a, b) => {
