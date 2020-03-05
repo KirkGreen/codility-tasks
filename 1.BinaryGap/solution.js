@@ -13,10 +13,8 @@ function solution(N) {
     );
 
   if ( sortArr.length){
-    console.log(sortArr[sortArr.length-1].length);
     return sortArr[sortArr.length-1].length;
   } else {
-    console.log(0);
     return 0
   }
 }
