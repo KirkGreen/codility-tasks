@@ -1,14 +1,11 @@
-function solution(A){
+function solution(A) {
+  let result = 0;
 
-  let sortArr = A.sort((a, b) =>  a - b );
+  for (let item of A) {
+    result ^= item
+  }
 
-  let result = sortArr.filter((item, index) => {
-    if(item !== A[index + 1] && item !== A[index - 1]){
-      return item;
-    }
-  });
-
-  return result[0]
+  return result
 }
 
 solution([9.5, 3, 9.5, 3, 9, 7, 9]);
