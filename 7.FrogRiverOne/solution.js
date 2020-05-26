@@ -1,8 +1,8 @@
 function solution(X, A){
   let result = -1;
+  let sum = X * (X + 1)/2;
   let uniqArr = [];
   let counter = 0;
-  let sum = X * (X + 1)/2;
 
   A.find((item, index) =>{
     if(!uniqArr.includes(item) && item <= X ){
