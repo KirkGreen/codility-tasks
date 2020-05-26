@@ -15,15 +15,15 @@ all the positions from 1 to X are covered by leaves). You may assume that the sp
 negligibly small, i.e. the leaves do not change their positions once they fall in the river.
 
 For example, you are given integer X = 5 and array A such that:
-<br/>
-` A[0] = 1 ` <br/>
-` A[1] = 3 ` <br/>
-` A[2] = 1 ` <br/>
-` A[3] = 4 ` <br/>
-` A[4] = 2 ` <br/>
-` A[5] = 3 ` <br/>
-` A[6] = 5 ` <br/>
-` A[7] = 4 ` <br/>
+
+    A[0] = 1
+    A[1] = 3
+    A[2] = 1
+    A[3] = 4
+    A[4] = 2
+    A[5] = 3
+    A[6] = 5
+    A[7] = 4
 In second 6, a leaf falls into position 5. This is the earliest time when leaves appear in every position across
 the river.
 
@@ -36,15 +36,15 @@ jump to the other side of the river.
 If the frog is never able to jump to the other side of the river, the function should return −1.
 
 For example, given X = 5 and array A such that:
-<br/>
-` A[0] = 1 ` <br/>
-` A[1] = 3 ` <br/>
-` A[2] = 1 ` <br/>
-` A[3] = 4 ` <br/>
-` A[4] = 2 ` <br/>
-` A[5] = 3 ` <br/>
-` A[6] = 5 ` <br/>
-` A[7] = 4 ` <br/>
+    
+    A[0] = 1
+    A[1] = 3
+    A[2] = 1
+    A[3] = 4
+    A[4] = 2
+    A[5] = 3
+    A[6] = 5
+    A[7] = 4
 the function should return 6, as explained above.
 
 Write an efficient algorithm for the following assumptions:
