@@ -1,6 +1,6 @@
 <h1>FrogRiverOne</h1>
 
-[PermMissingElem][https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/]
+[Link to the task][https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/]
 
 A small frog wants to get to the other side of a river. The frog is initially located on one bank of the river
 (position 0) and wants to get to the opposite bank (position X+1). Leaves fall from a tree onto the surface

@@ -1,6 +1,6 @@
 <h1>PermMissingElem</h1>
 
-[PermMissingElem][https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/]
+[Link to the task][https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/]
 
 An array A consisting of N different integers is given.
 The array contains integers in the range `[1..(N + 1)]`,
