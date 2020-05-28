@@ -1,6 +1,6 @@
 <h1>FrogRiverOne</h1>
 
-[Link to the task][https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/]
+[Link to the task][https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/]
 
 A small frog wants to get to the other side of a river. The frog is initially located on one bank of the river
 (position 0) and wants to get to the opposite bank (position X+1). Leaves fall from a tree onto the surface
@@ -52,4 +52,4 @@ Write an efficient algorithm for the following assumptions:
 + N and X are integers within the range `[1..100,000]`;
 + each element of array A is an integer within the range `[1..X]`.
 
-[https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/]: https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/
+[https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/]: https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/
