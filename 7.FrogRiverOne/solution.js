@@ -1,23 +1,13 @@
 function solution(X, A){
-  let result = -1;
-  let sum = X * (X + 1)/2;
-  let uniqArr = [];
-  let counter = 0;
+  let holdValues = new Set();
 
-  A.find((item, index) =>{
-    if(!uniqArr.includes(item) && item <= X ){
-      counter += item;
-      uniqArr.push(item)
-    }
+  for( let i = 0; i < A.length; i++ ) {
+    holdValues.add( A[i] );
 
-    if (counter === sum) {
-      result = index;
-      counter = 0;
-    }
+    if( holdValues.size === X ) return i;
+  }
 
-  });
-
-  console.log(result);
+  return -1;
 }
 
 solution(5, [1, 3, 1, 4, 2, 3, 5, 1]);
