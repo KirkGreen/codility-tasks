@@ -11,7 +11,7 @@ function solution(A){
 
   }
 
-  console.log(Math.min.apply(Math, result))
+  return Math.min.apply(Math, result)
 
 }
 

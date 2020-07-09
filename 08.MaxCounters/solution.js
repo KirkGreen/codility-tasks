@@ -10,7 +10,7 @@ function solution(N, A){
     }
   });
 
-  console.log(counters);
+  return counters;
 }
 
 solution(5, [3,4,4,6,1,4,4]);

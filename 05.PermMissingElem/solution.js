@@ -12,7 +12,7 @@ function solution(A){
 
   let result = sum - currentArrSum;
 
-  console.log(result);
+  return result;
 
 }
 
